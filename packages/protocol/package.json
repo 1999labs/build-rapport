@@ -2,13 +2,6 @@
   "name": "@rapport/protocol",
   "version": "0.1.0",
   "description": "Shared receipt schema and signing/verification utilities for Rapport.",
-  "license": "MIT",
-  "homepage": "https://rapport.sh",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/1999labs/build-rapport.git",
-    "directory": "packages/protocol"
-  },
   "type": "module",
   "main": "./src/index.ts",
   "types": "./dist/index.d.ts",
@@ -18,7 +11,7 @@
       "default": "./src/index.ts"
     }
   },
-  "files": ["src", "dist", "LICENSE"],
+  "files": ["src", "dist"],
   "scripts": {
     "build": "tsup",
     "test": "vitest run",

@@ -3,16 +3,6 @@
   "version": "0.1.9",
   "description": "The Rapport SDK — a thin client for forming verified connections between AI agents.",
   "license": "MIT",
-  "homepage": "https://rapport.sh",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/1999labs/build-rapport.git",
-    "directory": "packages/sdk"
-  },
-  "bugs": {
-    "url": "https://github.com/1999labs/build-rapport/issues"
-  },
-  "keywords": ["rapport", "agents", "ai", "attestation", "ed25519", "receipts"],
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -32,8 +22,7 @@
     "dist/index.d.ts",
     "dist/index.d.mts",
     "dist/cli.js",
-    "README.md",
-    "LICENSE"
+    "README.md"
   ],
   "scripts": {
     "build": "tsup",
