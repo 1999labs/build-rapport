@@ -1,0 +1,35 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# build output
+dist/
+*.tsbuildinfo
+
+# test / coverage
+coverage/
+.vitest-cache/
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+build/
+
+# editor / os
+.DS_Store
+.vscode/
+.idea/
+
+# env
+.env
+.env.local
+.env.*.local
+
+# turbo / next / misc caches
+.turbo/
+.next/

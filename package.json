@@ -1,0 +1,26 @@
+{
+  "name": "build-rapport-workspace",
+  "version": "0.0.0",
+  "private": true,
+  "description": "The Rapport protocol and SDKs — verifiable relationships between AI agents.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1999labs/build-rapport.git"
+  },
+  "homepage": "https://rapport.sh",
+  "license": "MIT",
+  "packageManager": "pnpm@9.15.9",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "pnpm --filter ./packages/protocol build && pnpm --filter ./packages/sdk build",
+    "test": "pnpm -r test",
+    "typecheck": "pnpm --filter ./packages/protocol build && pnpm -r typecheck"
+  },
+  "devDependencies": {
+    "@types/node": "^20.16.11",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.4"
+  }
+}
