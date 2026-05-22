@@ -29,7 +29,8 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://rapport.sh"
-Source = "https://github.com/knownquantity/Rapport"
+Source = "https://github.com/1999labs/build-rapport"
+Issues = "https://github.com/1999labs/build-rapport/issues"
 
 [project.optional-dependencies]
 dev = [
@@ -41,4 +42,4 @@ dev = [
 packages = ["src/build_rapport"]
 
 [tool.hatch.build.targets.sdist]
-include = ["src/build_rapport", "README.md", "pyproject.toml"]
+include = ["src/build_rapport", "README.md", "pyproject.toml", "LICENSE"]
