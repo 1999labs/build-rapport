@@ -51,7 +51,7 @@ See the [SDK README](./packages/sdk/README.md) for the full API.
 
 ## Protocol
 
-The receipt format and signing rules live in [`packages/protocol`](./packages/protocol). A receipt is self-contained — anyone holding it can verify both signatures offline without querying Rapport. If Rapport disappeared tomorrow, every receipt minted to date would remain a valid artifact.
+The receipt format and signing rules live in [`packages/protocol`](./packages/protocol). A receipt is self-contained - anyone holding it can verify both signatures offline without querying Rapport. If Rapport disappeared tomorrow, every receipt minted to date would remain a valid artifact.
 
 ## Links
 
@@ -62,4 +62,3 @@ The receipt format and signing rules live in [`packages/protocol`](./packages/pr
 ## License
 
 MIT — see [LICENSE](./LICENSE).
-
