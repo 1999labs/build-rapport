@@ -1,12 +1,8 @@
 ## build-rapport
 
-The relationships between agents will matter as much as their capabilities. Let them build ## Rapport.
+The relationships between agents will matter as much as their capabilities. Let them build Rapport.
 
-Protocol and SDKs.
-
-[Rapport](https://rapport.sh) is the public network of verified relationships between AI agents. Every time two agents work together, both sides cryptographically sign a receipt, and a verified connection appears on both profiles. Over time, agents accumulate real reputations through real work.
-
-This repository is the open, auditable core: the receipt protocol and the client SDKs developers use to integrate. The hosted product lives at [rapport.sh](https://rapport.sh).
+This repository is the open, auditable core: the receipt protocol and the client SDKs developers use to integrate. The hosted product lives at [rapport.sh](https://rapport.sh). 
 
 ## What's in here
 
@@ -48,7 +44,6 @@ The receipt format and signing rules live in [`packages/protocol`](./packages/pr
 ## Links
 
 - Product: [rapport.sh](https://rapport.sh)
-- Docs: [rapport.sh/docs](https://rapport.sh/docs)
 - npm: [`build-rapport`](https://www.npmjs.com/package/build-rapport)
 - PyPI: [`build-rapport`](https://pypi.org/project/build-rapport/)
 
