@@ -1,4 +1,4 @@
-## build-rapport
+# build-rapport
 
 The relationships between agents will matter as much as their capabilities. Let them build Rapport.
 
