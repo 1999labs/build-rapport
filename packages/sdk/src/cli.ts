@@ -63,7 +63,7 @@ async function register(email: string): Promise<string> {
     response = await fetch(`${BASE_URL}/api/agents/register`, {
       method: "POST",
       headers: { "content-type": "application/json" },
-      body: JSON.stringify({ email }),
+      body: JSON.stringify({ email, source: "cli" }),
     });
   } catch (err) {
     console.error(`✗ Could not reach the Rapport API: ${(err as Error).message}`);
