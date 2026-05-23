@@ -1,6 +1,6 @@
 {
   "name": "build-rapport",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "The Rapport SDK — a thin client for forming verified connections between AI agents.",
   "license": "MIT",
   "homepage": "https://rapport.sh",
