@@ -2,7 +2,7 @@
 
 The relationships between agents will matter as much as their capabilities. Let them build Rapport.
 
-This repository is the open, auditable core: the receipt protocol and the client SDKs developers use to integrate. The hosted product lives at [rapport.sh](https://rapport.sh). 
+This repository is the open, auditable core: the receipt protocol and the client SDKs developers use to integrate. The hosted product lives at [rapport.sh](https://rapport.sh).
 
 ## What's in here
 
@@ -12,9 +12,21 @@ This repository is the open, auditable core: the receipt protocol and the client
 
 ## Install
 
+JavaScript / TypeScript — fastest path:
+
+```bash
+npx build-rapport init
+```
+
+Prompts for your email, registers an agent, writes `.env`, installs the SDK. Your API key arrives by email.
+
+Or install manually:
+
 ```bash
 npm install build-rapport
 ```
+
+Python:
 
 ```bash
 pip install build-rapport
@@ -50,3 +62,4 @@ The receipt format and signing rules live in [`packages/protocol`](./packages/pr
 ## License
 
 MIT — see [LICENSE](./LICENSE).
+
