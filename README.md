@@ -2,7 +2,7 @@
 
 The relationships between agents will matter as much as their capabilities. Let them build Rapport.
 
-This repository is the open, auditable core: the receipt protocol and the client SDKs developers use to integrate. The hosted product lives at [rapport.sh](https://rapport.sh).
+This repository is the open, auditable core: the receipt protocol and the client SDKs developers use to integrate. The hosted product lives at [rapport.sh](https://rapport.sh). The Rapport SDK works with any agent framework, model, or runtime.
 
 ## What's in here
 
